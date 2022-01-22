@@ -2,7 +2,6 @@ import React from 'react';
 import 'D:/reactcls/awesomeapp/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'D:/reactcls/awesomeapp/node_modules/bootstrap/dist/js/bootstrap.bundle';
 import './Project.css';
-import Error from './Error';
 import Home from './Home';
 import Service from './Service';
 import About from './About';
@@ -20,7 +19,7 @@ const App = () =>{
             <Route exact path="/service" element={<Service/>} />
             <Route exact path="/about" element={<About/>} />
             <Route exact path="/contact" element={<Contact/>} />
-            <Route path="*" element={<Error/>}  />
+            <Route path="*" element={<Home/>}  />
            </Routes>
           
         </>
