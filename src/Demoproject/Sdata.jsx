@@ -1,8 +1,8 @@
- import React from 'react';
- import Pic1 from './image/apng.png';
- import Pic2 from './image/robot.png';
- import Pic3 from './image/hjpeg.jpeg';
- import Pic4 from './image/sjpeg.jpeg';
+
+ import Pic1 from '../image/apng.png';
+ import Pic2 from '../image/robot.png';
+ import Pic3 from '../image/hjpeg.jpeg';
+ import Pic4 from '../image/sjpeg.jpeg';
  const Sdata = [{
    imgpic: Pic1,
    tittle:"Buiseness Plan"

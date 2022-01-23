@@ -1,7 +1,6 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom';
+import React from 'react';
 import Common from './Common';
-import Pic from './image/hjpeg.jpeg';
+import Pic from '../image/hjpeg.jpeg';
 
 const Home = () => {
   return (

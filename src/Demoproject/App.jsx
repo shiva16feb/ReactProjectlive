@@ -7,9 +7,7 @@ import Service from './Service';
 import About from './About';
 import Contact from './Contact';
 import Navbar from './Navbar';
-import { Routes,BrowserRouter,
-      Route 
-  } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 const App = () =>{
     return(
         <> 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Common from './Common';
-import Pic from './image/apng.png';
+import Pic from '../image/apng.png';
 
 
 const About = () => {

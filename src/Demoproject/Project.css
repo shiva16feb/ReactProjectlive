@@ -32,18 +32,18 @@ a{
 }
 @-webkit-keyframes animate{
     0%{
-    transform: translateY(10px);
+    transform: translateY(5px);
     }
     100%{
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
 }
 @keyframes animate{
     0%{
-    transform: translateY(10px);
+    transform: translateY(5px);
     }
     100%{
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
 }
 .btn{
@@ -52,4 +52,15 @@ a{
 .pic{
     width:auto;
     height: 300px;
+}
+@media (max-width:768px) {
+    #header .effect img{
+        width: 70%;
+    }
+    #header{
+        margin-top: 20px;
+    }
+    #header h1{
+        font-size: 28px;
+    }
 }
