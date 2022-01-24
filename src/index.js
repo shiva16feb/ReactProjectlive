@@ -6,6 +6,5 @@ import Todolist from './Todolist';
 ReactDOM.render(<>
   <BrowserRouter>
  <Todolist/>
-
   </BrowserRouter>
   </>, document.getElementById("root"));
