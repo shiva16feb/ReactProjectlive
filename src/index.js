@@ -1,10 +1,11 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom';
-import App from './Demoproject/App';
 import { BrowserRouter } from 'react-router-dom';
+import Todolist from './Todolist';
 
 ReactDOM.render(<>
   <BrowserRouter>
-  <App/> 
+ <Todolist/>
+
   </BrowserRouter>
   </>, document.getElementById("root"));
